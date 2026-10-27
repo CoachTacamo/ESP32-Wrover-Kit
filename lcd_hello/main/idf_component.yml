@@ -1,0 +1,8 @@
+## IDF Component Manager manifest.
+dependencies:
+  # ILI9341 LCD panel driver (not part of core esp_lcd in v5.x).
+  espressif/esp_lcd_ili9341: "~1.2.0"
+  # LVGL graphics library + Espressif's glue to esp_lcd.
+  lvgl/lvgl: "~9.2.0"
+  espressif/esp_lvgl_port: "~2.4"
+  idf: ">=5.1"
