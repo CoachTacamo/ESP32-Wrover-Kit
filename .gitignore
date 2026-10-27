@@ -1,0 +1,16 @@
+# ESP-IDF generated/downloaded artifacts.
+# Leading "**/" so these match in every project subfolder, not just root.
+
+# Build output
+**/build/
+
+# Components downloaded by the IDF Component Manager
+**/managed_components/
+
+# Generated config (regenerated from sdkconfig.defaults + menuconfig).
+# Kept out of version control so each machine regenerates its own.
+**/sdkconfig
+**/sdkconfig.old
+
+# macOS clutter
+.DS_Store
